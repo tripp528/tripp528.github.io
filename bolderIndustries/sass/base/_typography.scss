@@ -1,0 +1,27 @@
+//body, article, etc
+.articlebox {
+  @include article-box(
+  $bg: $greyTrans
+  );
+  color: black;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.articlehead {
+  @include circleThing($bg: black);
+}
+
+.articlebox-clear{
+  @include article-box(
+  $bg: clear,
+  )
+}
+
+.brand-logo {
+  height: 100%;
+}
+
+img.responsive-img {
+  height: 100%;
+}

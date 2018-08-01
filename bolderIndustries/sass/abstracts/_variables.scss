@@ -1,0 +1,23 @@
+// Fonts
+$font-stack: 'Andale Mono', monospace;
+
+// Font Sizing
+$font-size: 14px;
+$baseLineHeight: 1.5;
+$headingLineHeight: 1.2;
+
+// Colors
+$black: rgba(51,51,51,1);
+$red: #d52b1e;
+$blue: #0f00b7;
+$pale: #d2e1dd;
+$blueTrans: transparentize(lightblue, .3 );
+$greyTrans: rgba(grey, .8 );
+
+// Spacing
+$pad: 1em;
+$article-width: 760px;
+
+// Breakpoints
+$smallBreakpoint : 600px;
+$largeBreakpoint : 1080px;
