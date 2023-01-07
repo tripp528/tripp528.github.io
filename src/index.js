@@ -1,13 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import 'antd/dist/antd.dark.css'
-import './squarespace.css'
-import './index.css'
 import App from './app'
-import { utils } from 'bi-compound-store'
+import './index.css'
 import reportWebVitals from './reportWebVitals'
 
-utils.remove_all_style()
 
 ReactDOM.render(
   <React.StrictMode>

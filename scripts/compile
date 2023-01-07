@@ -1,6 +1,4 @@
 #!bin/bash
-# ionic cap sync # automatically builds, no need for yarn build
-
 
 yarn build
-poetry run python compile.py build/index.html build/full.html
+poetry run python compile.py build/index.html index.html
