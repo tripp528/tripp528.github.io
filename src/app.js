@@ -1,12 +1,16 @@
 import React, { useEffect } from 'react'
-import Why from 'posts/why'
+import LinkTree from 'linktree'
 
 const App = () => {
 
   return (
-    <div className="App" style={{height: '100%'}}>
+    <div className="App" style={{
+      height: '100%',
+    }}>
       
-      <Why />
+      {/* <Why /> */}
+
+      <LinkTree />
 
     </div>
   )
